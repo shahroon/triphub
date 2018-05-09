@@ -30,8 +30,16 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+####GEMS TO INTEGRATE PRE_PREPARED TEMPLATE###
+gem 'jquery-rails'
+gem 'therubyracer'
+gem 'less-rails-bootstrap'
+gem "font-awesome-rails"
+gem 'jquery-easing-rails'
+gem 'sprockets-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'rubocop', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
